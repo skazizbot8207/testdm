@@ -17,7 +17,7 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('Created by B Í K Ê Y')
+    print('Created by TD || SONU')
 
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     
@@ -44,4 +44,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NjUwMjA1ODc0MDk0MzQyMTk5.Xg4OqQ.fBZ2j9NsFkHFCfY4qkPbvj7Qf3o")                
+client.run("lJBfPH7pq6-A2Kn_uxsOx3-f-awNVEzV")                
